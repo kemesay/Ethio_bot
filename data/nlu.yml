@@ -1,0 +1,2132 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hi oromia
+    - hello oromia
+    - hello there
+    - good morning
+    - good evening
+    - morning
+    - hey there
+    - let's go
+    - hey dude
+    - good morning 
+    - good evening
+    - good afternoon
+
+- intent: otc
+  examples: |
+   - MOT (Minister of Tourism )
+   - can you help me with oromia tourism commission
+   - where is oromia tourim
+   - oromia tourism
+   - Minister of Tourism
+   - tourism commission
+   - MOT
+   - i want to know oromia tour commission
+   - oromia commission
+   - locate me to oromia commission tourism
+   - can you help me with MOT
+
+# - intent: aboutotc
+#   examples: | 
+#    - Oromia Tourism ommission
+#    - what is the purpose of oromia tourism commission
+#    - what is the mission of oromia commission tourism
+#    - what is the vision of oromia commission tourism
+#    - about oromia tourism commission 
+
+- intent: missionandvision
+  examples: | 
+   - mission and vision of oromia commission tourism
+   - what are mission and vision Oromia Tourism ommission
+   - what is mission and vision of oromia tourism commission
+   - about mission and vision
+   - mission and vision
+   - mission
+   - vision  
+   - OTC mission and vision
+
+- intent: investment_otc
+  examples: | 
+   - investment
+   - what are investments
+   - what is  investment
+   - investment in oromia
+   - what is the vision of oromia tourism commission
+   - about investment
+   - OTC investment
+
+- intent: otccareer
+  examples: | 
+   - career
+   - what is careers of oromia tourism commission
+   - I want career of oromia commission tourism
+   - tell me about career of oromia tourism commission 
+   - can you help me with carer of oromia tourism commission
+   - careers of oromia tourism commission
+   - OTC career
+
+- intent: clot_sourvenir_shops
+  examples: | 
+   - clothes and souvenirs
+   - what are clothes and sourvenir
+   - what is sourvenir and clothes
+   - about clothes and souvenir
+   - clothes
+   - sourvenir_shop
+   - sourvenir
+   - souvenirs
+
+- intent: otccontact
+  examples: |
+   - contact
+   - contacts
+   - I want oromia tourism commission contact
+   - help me with oromia tourism commission contact
+   - how can I get oromia tourism commission contact
+   - direct me to oromia tourism commission contact
+   - oromia tourism commission contact
+   - OTC contacts
+   - visit oromia contacts
+
+- intent: live_chat
+  examples: |
+   - live chat
+   - chat
+   - live chat with me
+   - direct me to live chat
+   - how can I get live chat
+   - direct me to 
+   - Agent
+   - coneect with agent
+   - OTC Agent
+   - OTC live chat
+   - visit oromia agent
+   - visit oromia live chat
+
+#############################################################################################################
+- intent: visitoromia
+  examples: |
+   - Visit Ethiopia (Land of Origins)
+   - what is land of origins 
+   - purposes of land of origins
+   - why visit oromia is funded as brand of oromia tourism commission
+   - land of origins
+   - help me with visit oromia
+   - Ethiopia
+   - oromia
+   - Addis ababa
+   - adis ababa
+   - adis abeba
+
+
+- intent: gallery
+  examples: |
+   - what is the gallery of visit oromia
+   - what is gallery 
+   - gallery
+   - galery
+   - what are the videos of visit oromia
+   - photos and image
+   - images and video
+   - help me with video and photo
+   - help me with videos and image
+   - visit oromia gallery
+
+
+- intent: image_gallery
+  examples: |
+   - image list
+   - picture
+   - pictures
+   - images
+   - image
+   - visit oromia image
+   - visit oromia photo
+   - visit oromia picture
+   - pictures of visit oromia
+   - help me with photo
+   - help me with image
+
+- intent: video_gallery
+  examples: |
+   - what is the video of visit oromia
+   - what is video
+   - visit oromia video
+   - video
+   - vidoe
+   - visit oromia video
+   - videos
+   - help me with video
+   - help me with videos
+
+
+- intent: start
+  examples: |
+   - menu
+   - start
+   - /start
+   - go to menu of visit oromia
+   - select  menu of visit oromia
+   - touch menu of visit oromia
+   - help me with menu of visit oromia
+   - help me with menu
+   - menu of visit oromia
+
+# - intent: feedback
+#   examples: |
+#    - feedback
+#    - my feedback
+#    - I want to give feedback
+#    - give feedback
+#    - how to give feedback
+#    - how to feedback
+#    - I want to provide feedback
+#    - Can I leave feedback?
+#    - Feedback about the service
+   
+- intent: help
+  examples: |
+   - help
+   - help me
+   - I want you to help me
+   - please help me
+   - I need help
+   - how to help me
+   - can you help me
+   - I need help about visit oromia
+
+# - intent: tour_opertaor
+#   examples: | 
+#    - how can get tour operators
+#    - help me with tour operators
+#    - how to get helper at destinations
+#    - call tour operators for me
+
+# - intent: accomodation
+#   examples: |
+#    - best accomodations under visit oromia
+#    - accomodatons under visit oromia
+#    - how to get accomodations
+#    - help me with accomodations
+
+# - intent: hotels
+#   examples: | 
+#    - best hotels under visit oromia
+#    - hotels under visit oromia
+#    - how to get hotels
+#    - help me with hotels
+  
+# - intent: resorts
+#   examples: | 
+#    - best resort under visit oromia
+#    - resort under visit oromia
+#    - how to get resort
+#    - help me with resort
+
+# - intent: lodge
+#   examples: | 
+#    - best lodge under visit oromia
+#    - lodge under visit oromia
+#    - how to get lodge
+#    - help me with lodge
+
+# - intent: guest_house
+#   examples: | 
+#    - best guest house under visit oromia
+#    - guest house under visit oromia
+#    - how to get guest house
+#    - help me with guest house
+
+############################################################################################################################
+- intent: social_media
+  examples: |
+   - social  media
+   - list social midea of visit oromia
+   - what are the social midea of visit oromia
+   - help me with social midea ofvisit oromia
+   - social midea of visit oromia
+   - social midea
+   - midea
+   - links
+   - media
+   - visit oromia social midea
+
+- intent: website
+  examples: |
+   - website of visit oromia
+   - what is website of visit oromia
+   - help me with website of visit oromia
+   - website of visit oromia
+   - website
+   - visit oromia website
+   - web
+   - websites
+   - visit oromia web
+
+- intent: app1
+  examples: |
+   - linkedin
+   - linked
+   - linkedin of visit oromia
+   - what is linkedin of visit oromia
+   - help me with linkedinof visit oromia
+   - linkedin of visit oromia
+   - visit oromia linkedin
+
+- intent: facebook
+  examples: |
+   - facebook of visit oromia
+   - what is facebook of visit oromia
+   - help me with facebook of visit oromia
+   - facebook of visit oromia
+   - visit oromia facebook
+
+- intent: telegramg
+  examples: |
+   - telegram group of visit oromia
+   - what is  telegram group of visit oromia
+   - help me with  telegram group of visit oromia
+   - telegram group of visit oromia
+   - telegram
+   - telegram groups
+   - telegram group
+   - group
+   - groups
+   - visit oromia telegram group
+
+- intent: twitter
+  examples: |
+   - twitter ofvisit oromia
+   - what is twitter of visit oromia
+   - help me with twitter of visit oromia
+   - twitter of visit oromia
+   - twitter
+   - twitters
+   - twit
+   - visit oromia twitter
+
+- intent: youtube
+  examples: |
+   - youtube of visit oromia
+   - what is youtube of visit oromia
+   - help me with youtube of visit oromia
+   - youtube of visit oromia
+   - youtube
+   - youtube channel
+   - youtubes
+   - visit oromia youtube
+
+- intent: instagram
+  examples: |
+   - instagram of visit oromia
+   - what is instagram ofvisit oromia
+   - help me with instagram of visit oromia
+   - instagram of visit oromia
+   - visit oromia instagram
+   - instagram
+   - instagrams
+   - visit oromia instagram
+
+- intent: Pinterest
+  examples: |
+   - Pinterest
+   - Pinterest of visit oromia
+   - what is Pinterest of visit oromia
+   - help me with Pinterest of visit oromia
+   - Pinterest of visit oromia
+   - visit oromia Pinterest
+   - oromia Pinterest
+   - Pinterests
+   - visit oromia pinterest
+
+
+- intent: categories
+  examples: |
+   - categories
+   - category
+   - catagory
+   - what are the categories of destinations
+   - list categories of destinations
+   - group of destinations
+   - categoried of dedstinations
+   - visit oromia category
+   - visit oromia categories
+#####################################################################################
+#
+#                        National Parks
+#
+####################################################################################
+- intent: npark
+  examples: |
+   - national park
+   - park
+   - parks
+   - visit park
+   - oromias' park
+   - oromias parks
+   - visit oromia park
+   - visit oromia national park
+   - national park under visit oromia
+   - what are national parks of visit oromia
+   - help me with national park of visit oromia
+   - national park of visit oromia
+   - visit oromia national park
+#####################################################################################
+#
+#                        Birds
+#
+####################################################################################
+- intent: bird
+  examples: |
+   - birds
+   - bird 
+   - oromia bird
+   - oromias' bird
+   - oromias bird
+   - visit bird
+   - visit oromia bird
+   - visit oromia birds
+   - bird visit oromia 
+   - birds under visit oromia
+   - what are birds of visit oromia
+   - help me with birds of visit oromia
+   - birds of visit oromia
+   - visit oromia birds
+
+#####################################################################################
+#
+#                        Wild Animals
+#
+####################################################################################
+- intent: w_animals
+  examples: |
+   - Wild Animals
+   - wildanimals
+   - visit oromia wildanimals 
+   - oromia Wild Animals
+   - oromias wildanimals
+   - Wild Animals under visit oromia
+   - what are Wild Animals of visit oromia
+   - help me with Wild Animals of visit oromia
+   - Wild Animals of visit oromia
+   - visit oromia wild animal
+
+#####################################################################################
+#
+#                        Landscape
+#
+####################################################################################
+- intent: lscape
+  examples: |
+   - landscape 
+   - visit oromia landscape
+   - oromia landscape
+   - oromias landscape
+   - landscapes under visit oromia
+   - what are landscapes of visit oromia
+   - help me with landscapes of visit oromia
+   - landscapes of visit oromia
+  
+#####################################################################################
+#
+#                        Museum and Monument
+#
+####################################################################################
+- intent: mmonument
+  examples: |
+   - museum
+   - museums
+   - oromia museum
+   - oromia museums
+   - visit oromia museums
+   - museum nad monument
+   - visit oromia museum
+   - monument
+   - museum nad monument under visit oromia
+   - what are museum nad monument of visit oromia
+   - help me with museum nad monument of visit oromia
+   - museum nad monument of visit oromia
+#####################################################################################
+#
+#                        Palace
+#
+####################################################################################
+- intent: plce
+  examples: |
+   - palace
+   - oromia palace
+   - oromia palaces
+   - palaces
+   - palace under visit oromia
+   - what are palaces of visit oromia
+   - help me with palaces of visit oromia
+   - palaces of visit oromia
+   - visit oromia palace
+#####################################################################################
+#
+#                        Water Bodies
+#
+####################################################################################
+- intent: wbody
+  examples: |
+   - water body
+   - oromia water body
+   - oromias water body
+   - oromia water
+   - oromia waters
+   - visit oromia water body
+   - visit water
+   - water bodies
+   - Visit water body
+   - water bodies under visit oromia
+   - what are water bodies of visit oromia
+   - help me with water bodies of visit oromia
+   - water bodies of visit oromia
+#####################################################################################
+#
+#                        Mountain
+#
+####################################################################################
+- intent: mtain
+  examples: |
+   - Mountain
+   - visit mountain
+   - visit mountains
+   - oromia mountains
+   - oromias mountain
+   - visit oromia mountain
+   - visit oromia mountains
+   - mountains
+   - mountains under visit oromia
+   - what are mountains of visit oromia
+   - help me with mountains of visit oromia
+   - mountains of visit oromia
+
+- intent: activities
+  examples: |
+   - activities
+   - activities in tourism
+   - activities in visit oromia
+   - tourism activities
+   - visit oromia activities
+   - what are the activities taken during visit oromia
+   - list the activities taken when visit oromia
+   - activities taken under different destinations
+   - help me with activities
+   - visit activities
+   - visit oromia activities
+#####################################################################################
+#
+#                        Hiking
+#
+####################################################################################
+- intent: hking
+  examples: |
+   - Hiking 
+   - hikings
+   - visit oromia hikings
+   - oromia hikings
+   - oromia hiking
+   - visit hiking
+   - hiking under visit oromia
+   - what are hiking of visit oromia
+   - help me with hiking of visit oromia
+   - hiking of visit oromia
+#####################################################################################
+#
+#                        Camping
+#
+####################################################################################
+- intent: cping
+  examples: |
+   - camping
+   - camp
+   - oromia camping
+   - visit oromia camping
+   - visit camp
+   - visit oromia camp
+   - visit oromia campinng
+   - oromia camp
+   - camping under visit oromia
+   - what are destination having camping of visit oromia
+   - help me with destination having camping of visit oromia
+   - destination having camping of visit oromia
+#####################################################################################
+#
+#                        Swimming
+#
+####################################################################################
+- intent: sming
+  examples: |
+   - Swimming
+   - visit swimming
+   - oromia swimming
+   - visit oromia swimming
+   - oromias swimming
+   - Swimming under visit oromia
+   - what are destinations having Swimming of visit oromia
+   - help me with destination having swimming of visit oromia
+   - destination having swimming of visit oromia
+#####################################################################################
+#
+#                        Trekking
+#
+####################################################################################
+- intent: tking
+  examples: |
+   - Trekking
+   - oromia trek
+   - oromia treks
+   - visit oromia treks
+   - trekk
+   - visit trekking
+   - Trekking under visit oromia
+   - what are destinations having terkking of visit oromia
+   - help me with Trekking of visit oromia
+   - Trekking of visit oromia
+
+#####################################################################################
+#
+#                        Birds Watching
+#
+####################################################################################
+- intent: bwatching
+  examples: |
+   - Birds Watching
+   - visit oromia birds watching
+   - oromia birds watching
+   - Birds Watching under visit oromia
+   - what are destinations having birds watching of visit oromia
+   - help me with birds watching of visit oromia
+   - birds watching of visit oromia   
+
+##################################################################################################
+- intent: Destinations
+  examples: |
+    - list for me very well known tourism destinations in oromia
+    - list tourism destinations
+    - tourism destinations
+    - list of destinations
+    - destinations
+    - destination
+    - oromia destination
+    - visit oromia destination
+    - visit oromia destinations
+    - oromia destinations 
+    - known destinations
+
+- intent: centralTR
+  examples: |
+   - central tourism
+   - central tourism route
+   - visit oromia central tourism
+   - oromia central tourism
+   - centeral tourism
+   - visit centeral tourism
+   - I want to visit central tourism route
+   - help me with central tourism route
+   - what are central tourism routes
+   - how can i get central tourism route
+
+- intent: southernTR
+  examples: | 
+   - I want to visit southern tourism route
+   - help me with southern tourism route
+   - what are southern tourism routes
+   - how can i get southern tourism route
+   - southern tourism
+   - oromia southern tourism
+   - visit oromia southern tourism 
+   - southern tourism route
+   - visit southern tourism route
+   - visit south oromia
+
+- intent: southwestTR
+  examples: | 
+   - I want to visit south west tourism route
+   - help me with south west tourism route
+   - what are south west tourism routes
+   - how can i get south west tourism route
+   - visit oromia south west tourism route
+   - visit oromia south west
+   - visit south west tourism 
+   - visit south west tourism route
+
+- intent: southeastTR
+  examples: | 
+   - I want to visit south east tourism route
+   - help me with south east tourism route
+   - what are south east tourism routes
+   - how can i get south east tourism route
+   - visit oromia south east tourism route
+   - visit south east oromia
+   - south east 
+   - visit south east
+   - visit south east oromia
+
+- intent: easternTR
+  examples: | 
+   - I want to visit eastern tourism route
+   - help me with eastern tourism route
+   - what are eastern tourism routes
+   - how can i get eastern tourism route
+   - visit oromia eastern
+   - visit eastern oromia
+   - eastern oromia
+   - eastern oromia tourism route
+
+- intent: westernTR
+  examples: | 
+   - I want to visit western tourism route
+   - help me with western tourism route
+   - what are western tourism routes
+   - how can i get western tourism route
+   - visit oromia western
+   - visit western oromia
+   - western oromia
+   - western tourism route
+   - visit oromia western tourism route
+
+#######################################################################################################
+#                                                                                                     #
+#                                                                                                     #
+#                                   Feedback                                                          #
+#                                                                                                     #
+#######################################################################################################
+
+
+#######################################################################################################
+#  Covid_19 Information  
+- intent: covid
+  examples: | 
+   - I want information about covid_19 in Ethiopia
+   - help me with covid_19 information
+   - tell me about covid_19 information 
+   - list criteria of care covid_19 information in ethiopia
+   - covid_19
+   - what is covid_19
+   - help me with covid_19
+   - covid_19 in ethiopia 
+
+#######################################################################################################
+#  language setting 
+- intent: Language_setting
+  examples: | 
+   - I want to change language
+   - how to change language
+   - language setting
+   - language
+   - change language
+   - other language
+   - language setting
+   - tell me  how to change language
+   - this bot support different language
+
+# - intent: English
+#   examples: | 
+#    - I want English
+#    - I want English language
+#    - English
+#    - language English
+#    - this bot support English language
+
+# - intent: Amaharic
+#   examples: | 
+#    - I want Amaharic 
+#    - I want Ameregna
+#    - I want Amaharic
+#    - Amaharic
+#    - language Amaharic
+#    - this bot support Amaharic language
+
+# - intent: Afaan_Oromo
+#   examples: | 
+#    - I want Afaan oromo 
+#    - I want oromo language
+#    - I want aforomo
+#    - Afaan oromo
+#    - language afaan oromo 
+#    - this bot support Afaan oromo language
+
+# - intent: chinese
+#   examples: | 
+#    - I want chinese 
+#    - I want chinese language
+#    - chinese
+#    - language chinese
+#    - chinese language 
+#    - this bot support chinese language
+  
+# - intent: Russian_Tatar
+#   examples: | 
+#    - I want Tatar 
+#    - I want Tatar language
+#    - Tatar
+#    - language Tatar
+#    - Tatar language 
+#    - this bot support Tatar language
+  
+# - intent: japanese
+#   examples: | 
+#    - I want japanese 
+#    - I want japanese language
+#    - japanese
+#    - language japanese
+#    - japanese language 
+#    - this bot support japanese language
+
+# - intent: hangugeo
+#   examples: | 
+#    - I want hangugeo 
+#    - I want hangugeo language
+#    - hangugeo
+#    - language hangugeo
+#    - hangugeo language 
+#    - this bot support hangugeo language
+
+#######################################################################################################
+# life chat
+# - intent: agent
+#   examples: | 
+#    - I want to human
+#    - connect me with human agent 
+#    - how can I contact live chat
+#    - help me with live chat
+
+
+###################################################################################################
+
+
+# - intent: flight
+#   examples: |
+#    - flight 
+#    - I want the destinations having flight
+#    - help me with destinations having flight
+#    - tell me the destinations related to flight
+#    - possible flight to visit oromia
+
+# - intent: Hotel
+#   examples: | 
+#    - Hotel
+#    - I want the destinations having hotels
+#    - help me with destinations having hotels
+#    - tell me the best well known hotels under visit oromia 
+#    - list best hotels under visit oromia
+
+
+################################################################################
+#                                                                              #
+#                                                                              #
+#                    Components of Central Tourism Route                       #
+#                                                                              #
+#                                                                              #
+################################################################################
+
+- intent: central_culture_life_style
+  examples: |
+    - central cultural life style
+    - i want to visit central cultural life style
+    - help me with culcural life style
+    - visit central cultural life style
+    - what is central culture life style
+    - tell me cultural life style
+    - visit oromia cultural life style
+    - visit cultural life style
+
+- intent: two_culture_life_style
+  examples: |
+    - i want to visit central two culture life style
+    - help me with two culture life style
+    - what is central two culture life style
+    - tell me two culture life style
+    - two culture life style
+    - visit two culture life style
+    - central two culture life style
+    - visit oromia two culture life style
+  
+##################################################################################
+
+- intent: finfinne_adama_tourist_line
+  examples: |
+    - i want to visit finfinne adama tourist line
+    - help me with finfinne adama tourist line
+    - what is central finfinne adama tourist line
+    - tell me finfinne adama tourist line
+    - finfinne to adama tourist line
+    - visit finfinne to adam
+    - finfine to adama
+    - adama to finfine
+
+- intent: oda_nabe
+  examples: |
+    - give me the direction of oda nabe 
+    - how can i find the way to oda nabe 
+    - how can i reach to oda nabe 
+    - location and direction of oda nabe 
+    - please show me the way to oda nabe
+    - oda nabe
+    - how to reach oda nabe
+    - visit oda nabe
+
+- intent: cafe_tuma
+  examples: |
+    - give me the direction of cafe tuma
+    - how can i find the way to cafe tuma 
+    - how can i reach to cafe tuma 
+    - location and direction of cafe tuma 
+    - please show me the way to cafe tuma
+    - cafe tuma
+    - visit cafe tuma
+    - visit oromia cafe tuma
+
+- intent: bishoftu_town
+  examples: |
+    - give me the direction of bishoftu 
+    - how can i find the way to bishoftu town
+    - how can i reach to bishoftu 
+    - location and direction of bishoftu 
+    - please show me the way to bishoftu town
+    - bishoftu town
+    - visit bishoftu
+    - bishoftu
+    - bushoftu
+    - oromia bishuftu
+    - visit bishoftu town
+
+- intent: lake_hora_harsade
+  examples: |
+    - give me the direction of lake hora harsade 
+    - how can i find the way to lake hora harsade
+    - how can i reach to lake hora harsade 
+    - location and direction of lake hora harsade 
+    - please show me the way to lake hora harsade
+    - lake hora harsade
+    - hora harsade
+    - harsade
+    - visit hora harsade
+    - oromia harsade lake
+    - visit lake horrsade
+
+- intent: lake_bishoftu
+  examples: |
+    - give me the direction of lake bishoftu 
+    - how can i find the way to lake bishoftu 
+    - how can i reach to lake bishoftu  
+    - location and direction of lake bishoftu  
+    - please show me the way to lake bishoftu 
+    - lake bishoftu
+    - visit lake bishuftu
+    - direction of lake bishoftu
+    
+
+- intent: lake_babo_gaya
+  examples: |
+    - give me the direction of lake babo gaya
+    - how can i find the way to lake babo gaya 
+    - how can i reach to lake babo gaya  
+    - location and direction of lake babo gaya  
+    - please show me the way to lake babo gaya
+    - lake babo gaya
+    - babo gaya
+    - visit babo gaya
+    - oromia babo gaya
+    - visit oromia babo gaya
+ 
+- intent: lake_kuriftu
+  examples: |
+    - give me the direction of lake kuriftu
+    - how can i find the way to lake kuriftu
+    - how can i reach to lake kuriftu  
+    - location and direction of lake kuriftu 
+    - please show me the way to lake kuriftu
+    - lake kuriftu
+    - visit oromia lake kuriftu 
+    - visit lake kuriftu
+
+- intent: lake_kilole
+  examples: |
+    - give me the direction of lake kilole
+    - how can i find the way to lake kilole
+    - how can i reach to lake kilole  
+    - location and direction of lake kilole 
+    - please show me the way to lake kilole
+    - lake kilole
+    - visit lake kilole
+    - visit kilole
+    - visit oromia lake kilole
+    - lake kilole oromia
+
+- intent: lake_magarisa
+  examples: |
+    - give me the direction of lake magarisa
+    - how can i find the way to lake magarisa
+    - how can i reach to lake magarisa 
+    - location and direction of lake magarisa 
+    - please show me the way to lake magarisa
+    - lake magarisa
+    - visit lake magarisa
+    - visit magarisa
+    - visit oromia lake magarisa
+    - lake magarisa oromia
+
+- intent: mountain_ziquala
+  examples: |
+    - give me the direction of mountain ziquala
+    - how can i find the way to mountain chukala
+    - how can i reach to mountain ziquala 
+    - location and direction of mountain ziquala
+    - please show me the way to mountain chukala
+    - mountain chukala
+    - visit mountain chukala
+    - visit chukala
+    - visit omomia chukala
+    - mountain chukala oromia
+
+- intent: mountain_yarar
+  examples: |
+    - give me the direction of mountain yarar
+    - how can i find the way to mountain yarar
+    - how can i reach to mountain yarar
+    - location and direction of mountain yarar
+    - please show me the way to mountain yarar
+    - mountain yarar
+    - visit mountain yarar
+    - visit yarar
+    - mountain yarar oromia
+
+#######################################################################################
+- intent: adama_sodare_tourist_line
+  examples: |
+    - give me the direction adama sodare tourist line
+    - how can i find the way to adama sodare tourist line
+    - how can i reach to adama sodare tourist line
+    - location and direction of adama sodare tourist line
+    - please show me the way to adama sodare tourist line
+    - adama to sodare tourist line
+    - naziret to sodare 
+    - visit adama to sodare
+    - adama to sodare
+    - adama to sodare oromia
+
+- intent: adama
+  examples: |
+    - give me the direction of adama
+    - how can i find the way to adama
+    - how can i reach to adama
+    - location and direction of adama
+    - please show me the way to adama
+    - adama
+    - Nazirit
+    - nazrit
+    - Natherit
+    - visit adama
+    - visit nazrit
+    - adama oromia
+    - nazrit oromia
+
+- intent: oromo_martyr_monument
+  examples: |
+    - give me the direction of oromo martyr monument
+    - how can i find the way to oromo martyr monument
+    - how can i reach to oromo martyr monument
+    - location and direction of oromo martyr monument
+    - please show me the way to oromo martyr monument
+    - oromo martyr monument
+    - visit martyr
+    - visit oromo martyr 
+    - visit oromo martyr monument oromia
+    - visit oromo martyr
+
+
+- intent: garagadi_hot_spring
+  examples: |
+    - give me the direction of garagadi hot spring
+    - how can i find the way to garagadi hot spring
+    - how can i reach to garagadi hot spring
+    - location and direction of garagadi hot spring
+    - please show me the way to garagadi hot spring
+    - garagadi hot spring
+    - hot spring 
+    - visit garagadi hot spring
+    - garagadi hot spring oromia
+    - visit oromia garagadi hot spring
+    - visit garagadi
+  
+  
+
+- intent: boku_steam
+  examples: |
+    - give me the direction of boku steam
+    - how can i find the way to boku steam
+    - how can i reach to boku steam
+    - location and direction of boku steam
+    - please show me the way to boku steam
+    - boku steam
+    - steam
+    - visit boku steam
+    - boku steam
+
+- intent: sodare_spa_resort
+  examples: |
+    - give me the direction of sodare spa resort
+    - how can i find the way to sodare spa resort
+    - how can i reach to sodare spa resort
+    - location and direction of sodare spa resort
+    - please show me the way to sodare spa resort
+    - sodare spa resort
+    - visit sodare spa resort
+    - sodare spa resort oromia
+    - sodare resort
+
+- intent: dhera_dilfaqar
+  examples: |
+    - give me the direction of dhera dilfaqar proposed park
+    - how can i find the way to dhera dilfaqar proposed park
+    - how can i reach to dhera dilfaqar proposed park
+    - location and direction of dhera dilfaqar proposed park
+    - please show me the way to dhera dilfaqar proposed park
+    - dhera dilfaqar proposed park
+    - dhera dilfaqar
+    - visit dera dilfaqar
+    - visit oromia dhera dilfaqar
+    - dhera dilfaqar oromia
+
+######################################################################################
+
+- intent: finfinne_shashamane_tourist_line
+  examples: |
+    - give me the direction of finfinne shashamane tourist line
+    - how can i find the way to finfinne shashamane tourist line
+    - how can i reach to finfinne shashamane tourist line
+    - location and direction of finfinne shashamane tourist line
+    - please show me the way to finfinne shashamane tourist line
+    - finfinne shashamane tourist line
+    - finfine shashamane 
+    - visit finfinne to shashamane
+    - visit oromia finfine to shashamane 
+
+- intent: lake_dambal
+  examples: |
+    - give me the direction of lake dambal
+    - how can i find the way to ziway
+    - how can i reach to lake dambal
+    - location and direction of ziway
+    - please show me the way to lake dambal
+    - lake dambal
+    - dambal
+    - visit dambal
+    - visit lake dambal
+    - lake dambal oromia
+
+- intent: lake_langano
+  examples: |
+    - give me the direction of lake langano
+    - how can i find the way to lake langano
+    - how can i reach to lake langano
+    - location and direction of lake langano
+    - please show me the way to lake langano
+    - lake langano
+    - langano
+    - visit lake langano
+    - visit oromia lake langano
+    - lake langano oromia
+ 
+- intent: abijata_shala
+  examples: |
+    - give me the direction of abijata shala lake national park
+    - how can i find the way to abijata shala lake national park
+    - how can i reach to abijata shala lake national park
+    - location and direction of abijata shala lake national park
+    - please show me the way to abijata shala lake national park
+    - abijata shala lake national park
+    - abijata shala
+    - abijata
+    - shala
+    - visit abijata shala
+    - abijata shala oromia
+
+
+##########################################################################################
+ 
+- intent: finfinne_ambo_woliso
+  examples: |
+    - give me the direction of finfinne ambo woliso tourist line
+    - how can i find the way to finfinne ambo woliso tourist line
+    - how can i reach to finfinne ambo woliso tourist line
+    - location and direction of finfinne ambo woliso tourist line
+    - please show me the way to finfinne ambo woliso tourist line
+    - finfinne ambo woliso tourist line
+    - finfinne ambo
+    - visit finfinne ambo
+    - finfinne to ambo
+    - visit finfinne to ambo oromia
+
+- intent: managasha_suba_national_forest
+  examples: |
+    - give me the direction of managasha suba national forest
+    - how can i find the way to managasha suba national forest
+    - how can i reach to managasha suba national forest
+    - location and direction of managasha suba national forest
+    - please show me the way to managasha suba national forest
+    - managasha suba national forest
+    - managasha
+    - managasha suba
+    - visit managasha suba
+    - visit managasha
+    - managasha suba oromia
+    - visit oromia managasha suba
+   
+- intent: finfinne_alem_church_museum
+  examples: |
+    - give me the direction of finfinne alem church and museum
+    - how can i find the way to finfinne alem church and museum
+    - how can i reach to finfinne alem church and museum
+    - location and direction of finfinne alem church and museum
+    - please show me the way to finfinne alem church and museum
+    - finfinne alem church and museum
+    - finfinne alem church
+    - alem church
+    - visit finfinne alem church
+    - visit oromia finfinne alem church
+
+- intent: chilimogaji_forest
+  examples: |
+    - give me the direction of chilimogaji forest
+    - how can i find the way to chilimogaji forest
+    - how can i reach to chilimogaji forest
+    - location and direction of chilimogaji forest
+    - please show me the way to chilimogaji forest
+    - chilimogaji forest
+    - chilimogaji
+    - visit chilimogaji forest
+    - chilimogaji forest oromia
+
+- intent: lake_dandi
+  examples: |
+    - give me the direction of lake dandi
+    - how can i find the way to lake dandi
+    - how can i reach to lake dandi
+    - location and direction of lake dandi
+    - please show me the way to lake dandi
+    - lake dandi
+    - dandi
+    - visit lake dandi
+    - lake dandi oromia
+
+- intent: ambo
+  examples: |
+    - give me the direction of ambo
+    - how can i find the way to ambo
+    - how can i reach to ambo
+    - location and direction of ambo
+    - please show me the way to ambo
+    - ambo
+    - the way to ambo
+    - visit ambo
+    - ambo oromia
+
+- intent: direction_wenchi
+  examples: |
+    - give me the direction of wenchi
+    - how can i find the way to wenchi
+    - how can i reach to wenchi 
+    - location and direction of wenchi 
+    - please show me the way to wenchi 
+    - wenchi 
+    - wonchi
+    - wanci
+    - wancii
+    - visit wonchi
+    - visit wenchi
+    - wenchi oromia
+    - the way to wenchi
+    - wonchi oromia
+
+- intent: adadi_mariam_church
+  examples: |
+    - give me the direction of adadi mariam church
+    - how can i find the way to adadi mariam church
+    - how can i reach to adadi mariam church
+    - location and direction of adadi mariam church 
+    - please show me the way to adadi mariam church
+    - adadi mariam church
+    - adadi mariam
+    - visit adadi mariam church
+    - adadi mariam church oromia
+#################################################################################################
+#################################################################################################
+- intent: finfinne_north_shewa_tourist_line
+  examples: |
+    - give me the direction of finfinne north shewa tourist line
+    - how can i find the way to finfinne north shewa tourist line
+    - how can i reach to finfinne north shewa tourist line
+    - location and direction of finfinne north shewa tourist line 
+    - please show me the way to finfinne north shewa tourist line
+    - finfine north shewa tourist line
+    - northern
+    - north oromia
+    - north shewa
+    - finfine north shewa
+    - visit north shewa
+    - north shewa oromia
+    - visit oromia north shewa
+
+- intent: mugar_valley_darba_water_fall
+  examples: |
+    - give me the direction of mugar valley and darba water fall
+    - how can i find the way to mugar valley and darba water fall
+    - how can i reach to mugar valley and darba water fall
+    - location and direction of mugar valley and darba water fall 
+    - please show me the way to mugar valley and darba water fall
+    - mugar valley and darba water fall
+    - mugar valley
+    - darba 
+    - derba water fall
+    - visit derba water fall
+    - visit oromia derba water fall
+
+- intent: monestry_debra_libanos
+  examples: |
+    - give me the direction of monestry of debra libanos
+    - how can i find the way to monestry of debra libanos
+    - how can i reach to monestry of debra libanos
+    - location and direction of monestry of debra libanos 
+    - please show me the way to monestry of debra libanos
+    - monestry of debra libanos
+    - debra libanos
+    - visit debra libanos
+    - visit oromia debra libanos
+    - debra libanos monestry
+    - how to reach debra libanos
+    - debra libanos monestry oromia
+
+
+- intent: portugues_bridge
+  examples: |
+    - give me the direction of portugues bridge
+    - how can i find the way to portugues bridge
+    - how can i reach to portugues bridge
+    - location and direction of portugues bridge
+    - please show me the way to portugues bridge
+    - portugues bridge
+    - visit portugues bridge
+    - visit oromia portugues bridge
+    - portugues bridge oromia
+
+- intent: guha_tsion_mariam_washa_michael_church
+  examples: |
+    - give me the direction of guha tsion mariam and washa michael church
+    - how can i find the way to guha tsion mariam and washa michael church
+    - how can i reach to guha tsion mariam and washa michael church
+    - location and direction of guha tsion mariam and washa michael church
+    - please show me the way to guha tsion mariam and washa michael church
+    - guha tsion mariam and washa michael church
+    - visit washa michael church
+    - visit guha tsion mariam
+    - visit oromia washa michael church
+    - visit oromia guha tsion mariam
+    - guha tsion mariam
+    - washa michael church
+####################################################################################################
+#                                                                                                  #
+#                                                                                                  #
+#                             Southern Tourism Route                                               #
+#                                                                                                  #
+#                                                                                                  #
+####################################################################################################
+
+- intent: southern_culture_life_style
+  examples: |
+    - give me the direction of southern culture life style
+    - how can i find the way to southern culture life style
+    - how can i reach to southern culture life style
+    - location and direction of southern culture life style
+    - please show me the way to southern culture life style
+    - southern culture life style
+    - visit southern culture life style
+    - visit oromia southern culture life style
+    - southern culture life style, oromia
+
+- intent: sankalle_wild_life_reserve
+  examples: |
+    - give me the direction of sankalle wild life reserve or sanctuary
+    - how can i find the way to sankalle wild life reserve or sanctuary
+    - how can i reach to sankalle wild life reserve or sanctuary
+    - location and direction of sankalle wild life reserve or sanctuary
+    - please show me the way to sankalle wild life reserve or sanctuary
+    - sankalle wild life reserve or sanctuary
+    - visit sankalle wild life reserve or sanctuary
+    - sankalle wild life reserve or sanctuary oromia
+    - sankalle wild life reserve
+    - sankalle wild life sanctuary
+    - visit sankalle wild life sanctuary
+    - visit sankalle wild life reserve
+    - sankalle wild life reserve oromia
+  
+- intent: forest_scenery_around_guji
+  examples: |
+    - give me the direction of forest scenery around guji
+    - how can i find the way to forest scenery around guji
+    - how can i reach to forest scenery around guji
+    - location and direction of forest scenery around guji
+    - please show me the way to forest scenery around guji
+    - forest scenery around guji
+    - visit forest scenery around guji
+    - forest scenery around guji oromia
+    - visit oromia forest scenery around guji oromia
+    - forest scenery around guji oromia
+
+- intent: mee_boko_gada_site
+  examples: |
+    - give me the direction of me'e boko gada site
+    - how can i find the way to me'e boko gada site
+    - how can i reach to me'e boko gada site
+    - location and direction of me'e boko gada site
+    - please show me the way to me'e boko gada site
+    - me'e boko gada site
+    - me boko
+    - mee boko
+    - meeboko
+    - meboko
+    - visit mee boko
+    - me'e boko gada site oromia
+    - visit oromia me'e boko gada site
+
+- intent: destination_around_borana
+  examples: |
+    - give me the direction of destinations around borana
+    - how can i find the way to destinations around borana
+    - how can i reach to destinations around borana
+    - location and direction of destinations around borana
+    - please show me the way to destinations around borana
+    - destinations around borana
+    - visit  destinations around borana
+    - destinations around borana oromia
+    - borana 
+    - visit borana 
+    - borana oromia
+    - visit oromia borana
+
+- intent: town_mega_yabelo
+  examples: |
+    - give me the direction of town of mega and yabelo
+    - how can i find the way to town of mega and yabelo
+    - how can i reach to town of mega and yabelo
+    - location and direction of town of mega and yabelo
+    - please show me the way to town of mega and yabelo
+    - town of mega and yabelo
+    - visit town of mega and yabelo
+    - town of mega and yabelo oromia
+    - visit oromia mega town
+    - visit yabelo
+
+- intent: bokes
+  examples: |
+    - give me the direction of  bokes or craters
+    - how can i find the way to bokes or craters
+    - how can i reach to bokes or craters
+    - location and direction of bokes or craters
+    - please show me the way to bokes or craters
+    - bokes or craters
+    - bokes
+    - crate
+    - visit bokes
+    - visit crate
+    - visit oromia 
+    - bokes oromia
+
+#################################################################################################
+#                                                                                               #
+#                                                                                               #
+#                           South Western Tourism Route                                         #                           #
+#                                                                                               #
+#                                                                                               #
+#################################################################################################
+
+- intent: south_western_tourist_route
+  examples: |
+    - give me the direction of  south western tourist route
+    - how can i find the way to south western tourist route
+    - how can i reach to south western tourist route
+    - location and direction of south western tourist route
+    - please show me the way to south western tourist route
+    - south western tourist route
+    - visit south western 
+    - visit oromia south western tourism route
+    - south western
+
+- intent: south_western_culture_lifestyle
+  examples: |
+    - give me the direction of  south western culture and life style
+    - how can i find the way to south western culture and life style
+    - how can i reach to south western culture and life style
+    - location and direction of south western culture and life style
+    - please show me the way to south western culture and life style
+    - south western culture and life style
+    - south western culture and life style
+    - visit south western culture
+    - visit south western culture and life style
+
+- intent: District_galana_abaya
+  examples: |
+    - give me the direction of  districts of galana and abaya
+    - how can i find the way to districts of galana and abaya
+    - how can i reach to south districts of galana and abaya
+    - location and direction of districts of galana and abaya
+    - please show me the way to districts of galana and abaya
+    - districts of galana and abaya
+    - visit galana 
+    - visit galana and abaya
+    - visit galana and abaya oromia
+
+- intent: wallame_hot_spring
+  examples: |
+    - give me the direction of  wallame hot spring
+    - how can i find the way to wallame hot spring
+    - how can i reach to south wallame hot spring
+    - location and direction of wallame hot spring
+    - please show me the way to wallame hot spring
+    - wallame hot spring
+    - visit wallame hot spring
+    - wallame hot spring oromia
+
+- intent: gibe_gorge
+  examples: |
+    - give me the direction of  gibe gorge
+    - how can i find the way to gibe gorge
+    - how can i reach to south gibe gorge
+    - location and direction of gibe gorge
+    - please show me the way to gibe gorge
+    - gibe gorge
+    - visit gibe gorge
+    - gibe gorge oromia
+
+- intent: jimma
+  examples: |
+    - give me the direction of  jimma
+    - how can i find the way to jimma
+    - how can i reach to south jimma
+    - location and direction of jimma
+    - please show me the way to jimma
+    - jimma
+    - jima
+    - visit jimma
+    - jimma oromia
+    - jima oromia
+
+- intent: aba_jifar_palace
+  examples: |
+    - give me the direction of aba jifar palace 
+    - how can i find the way to aba jifar palace 
+    - how can i reach to aba jifar palace
+    - location and direction of aba jifar palace
+    - please show me the way to aba jifar palace
+    - aba jifar palace
+    - abajifar palace
+    - visit aba jifar palace
+    - abbajifar palace
+    - aba jifar
+    - abba jifar
+    - abba jifar palace 
+    - abba jifar oromia
+
+- intent: tropical_forest_jimma_illuababora
+  examples: |
+    - give me the direction of tropical forests of jimma and illu aba bora
+    - how can i find the way to tropical forests of jimma and illu aba bora 
+    - how can i reach to tropical forests of jimma and illu aba bora
+    - location and direction of tropical forests of jimma and illu aba bora
+    - please show me the way to tropical forests of jimma and illu aba bora
+    - tropical forests of jimma and illu aba bora
+    - tropical forests of jimma
+    - visit tropical forest
+    - vist jimma tropical forest 
+    - jimma tropical forest
+
+- intent: falls_around_jimma_Hu
+  examples: |
+    - give me the direction of falls around jimma and Hu 
+    - how can i find the way to falls around jimma and Hu
+    - how can i reach to falls around jimma and Hu
+    - location and direction of falls around jimma and Hu
+    - please show me the way to falls around jimma and Hu
+    - falls around jimma and Hu
+    - jimma falls
+    - visit falls around jimma and Hu
+    - visit jimma falls anf Hu
+
+- intent: sor_water_fall
+  examples: |
+    - give me the direction of sor water fall 
+    - how can i find the way to sor water fall
+    - how can i reach to sor water fall
+    - location and direction of sor water fall
+    - please show me the way to sor water fall
+    - sor water fall
+    - visit sor water fall
+    - sor water fall oromia
+    - illu sor water fall
+
+- intent: gore_town
+  examples: |
+    - give me the direction of gore town
+    - how can i find the way to gore town
+    - how can i reach to gore town
+    - location and direction of gore town
+    - please show me the way to gore town
+    - gore town
+    - visit gore town
+    - gore twon oromia
+    - location of gore town
+
+#####################################################################################################
+#                                                                                                   #
+#                                                                                                   #
+#        South Eastern Tourism Route                                                                #
+#                                                                                                   #
+#                                                                                                   #
+#####################################################################################################
+
+- intent: south_eastern_culture_life_style
+  examples: |
+    - give me the direction of south eastern culture and life style
+    - how can i find the way to south eastern culture and life style
+    - how can i reach to south eastern culture and life style
+    - location and direction of south eastern culture and life style
+    - please show me the way to south eastern culture and life style
+    - south eastern culture and life style
+    - visit south eastern culture and life style
+    - south eastern culture and life style oromia
+    - south eastern culture
+    - visit south eastern culture 
+
+- intent: museums_arsi_asala
+  examples: |
+    - give me the direction of museums in arsi asala district
+    - how can i find the way to museums in arsi asala district
+    - how can i reach to museums in arsi asala district
+    - location and direction of museums in arsi asala district
+    - please show me the way to museums in arsi asala district
+    - museums in arsi asala district
+    - visit museums in arsi to asala
+    - museums in arsi to asala
+
+- intent: anole_martyr_monument
+  examples: |
+    - give me the direction of anole martyr's monument
+    - how can i find the way to anole martyr's monument
+    - how can i reach to anole martyr's monument
+    - location and direction of anole martyr's monument
+    - please show me the way to anole martyr's monument
+    - anole martyr's monument
+    - visit anole martyr's monument
+    - anole martyr's
+    - visit anole
+
+- intent: arsi_mountains_national_park
+  examples: |
+    - give me the direction of arsi mountains national park
+    - how can i find the way to arsi mountains national park
+    - how can i reach to arsi mountains national park
+    - location and direction of arsi mountains national park
+    - please show me the way to arsi mountains national park
+    - arsi mountains national park
+    - visit arsi mountains national park
+    - arsi national park
+    - visit arsi national park
+
+- intent: dodola_adaba_forest
+  examples: |
+    - give me the direction of dodola adaba forest
+    - how can i find the way to dodola adaba forest
+    - how can i reach to dodola adaba forest
+    - location and direction of dodola adaba forest
+    - please show me the way to dodola adaba forest
+    - dodola adaba forest
+    - visit dodola adaba forest
+    - visit adaba forest
+    - visit adaba
+
+- intent: bale_moountains_national_park
+  examples: |
+    - give me the direction of bale moountains national park
+    - how can i find the way to bale moountains national park
+    - how can i reach to bale moountains national park
+    - location and direction of bale moountains national park
+    - please show me the way to bale moountains national park
+    - bale moountains national park
+    - bale mountain
+    - bale
+    - visit bale mountain
+    - visit bale 
+    - visit bale moountains national park
+
+- intent: sanate
+  examples: |
+    - give me the direction of sanate
+    - how can i find the way to sanate
+    - how can i reach to sanate
+    - location and direction of sanate
+    - please show me the way to sanate
+    - sanate
+    - visit sanate
+    - sanate oromia
+
+- intent: mada_walabu
+  examples: |
+    - give me the direction of mada walabu
+    - how can i find the way to mada walabu
+    - how can i reach to mada walabu
+    - location and direction of mada walabu
+    - please show me the way to mada walabu
+    - mada walabu
+    - visit mada walabu
+    - visit mada walabu oromia
+
+- intent: sof_umar_cafe
+  examples: |
+    - give me the direction of sof umar cafe
+    - how can i find the way to sof umar cafe
+    - how can i reach to sof umar cafe
+    - location and direction of sof umar cafe
+    - please show me the way to sof umar cafe
+    - sof umar cafe
+    - visit sof umar cafe
+    - sof umar cafe oromia
+
+- intent: dire_sheikh_hussein
+  examples: |
+    - give me the direction of dire sheikh hussein
+    - how can i find the way to dire sheikh hussein
+    - how can i reach to dire sheikh hussein
+    - location and direction of dire sheikh hussein
+    - please show me the way to dire sheikh hussein
+    - dire sheikh hussein
+    - sheikh hussein
+    - visit dire sheikh hussein
+    - visit sheikh hussein
+
+- intent: wabe_gorge
+  examples: |
+    - give me the direction of wabe gorge
+    - how can i find the way to wabe gorge
+    - how can i reach to wabe gorge
+    - location and direction of wabe gorge
+    - please show me the way to wabe gorge
+    - wabe gorge
+    - visit wabe gorge
+    - wabe gorge oromia
+
+##########################################################################################
+#                                                                                        #
+#                                                                                        #
+#              Eastern Tourism Route                                                     #
+#                                                                                        #
+#                                                                                        #
+##########################################################################################
+
+- intent: eastern_tourist_route
+  examples: |
+    - give me the direction of eastern tourist route
+    - how can i find the way to eastern tourist route
+    - how can i reach to eastern tourist route
+    - location and direction of eastern tourist route
+    - please show me the way to eastern tourist route
+    - eastern tourist route
+    - visit eastern tourist route
+    - visit eastern tourist route
+    - eastern touris
+
+- intent: asabo_mountains_monestry
+  examples: |
+    - give me the direction of asabo mountains and its monestry
+    - how can i find the way to asabo mountains and its monestry
+    - how can i reach to asabo mountains and its monestry
+    - location and direction of asabo mountains and its monestry
+    - please show me the way to asabo mountains and its monestry
+    - asabo mountains and its monestry
+    - visit asabo mountains 
+    - visit asabo mountains and its monestry
+    - visit asabo monestry
+    - asabo mountains and its monestry oromia
+
+- intent: jalo_kunni_mukhtar_forest
+  examples: |
+    - give me the direction of jalo kunni mukhtar forest
+    - how can i find the way to jalo kunni mukhtar forest
+    - how can i reach to jalo kunni mukhtar forest
+    - location and direction of jalo kunni mukhtar forest
+    - please show me the way to jalo kunni mukhtar forest
+    - jalo kunni mukhtar forest
+    - visit jalo kunni mukhtar forest
+    - jalo kunni mukhtar forest oromia
+    - visit jalo kunni muktar forest
+
+- intent: oda_bultum
+  examples: |
+    - give me the direction of oda bultum
+    - how can i find the way to oda bultum
+    - how can i reach to oda bultum
+    - location and direction of oda bultum
+    - please show me the way to oda bultum
+    - oda bultum
+    - visit oda bultum
+    - oda bultum oromia
+
+- intent: burka_kobtu_sama_hot_spring
+  examples: |
+    - give me the direction of burka and kobtu sama hot spring
+    - how can i find the way to burka and kobtu sama hot spring
+    - how can i reach to burka and kobtu sama hot spring
+    - location and direction of burka and kobtu sama hot spring
+    - please show me the way to burka and kobtu sama hot spring
+    - burka and kobtu sama hot spring
+    - visit burka and kobtu sama hot spring
+    - burka and kobtu sama hot spring oromia
+    - visit burka 
+    - visit kobtu sama hot spring
+    - visit burka hot spring
+
+- intent: Chororapithecus
+  examples: |
+    - give me the direction of Chororapithecus
+    - how can i find the way to Chororapithecus
+    - how can i reach to Chororapithecus
+    - location and direction of Chororapithecus
+    - please show me the way to Chororapithecus
+    - Chororapithecus
+    - visit Chororapithecus
+    - Chororapithecus oromia
+
+- intent: harala_ruins
+  examples: |
+    - give me the direction of harala ruins
+    - how can i find the way to harala ruins
+    - how can i reach to harala ruins
+    - location and direction of harala ruins
+    - please show me the way to harala ruins
+    - harala ruins
+    - visit harala ruins
+    - harala ruins oromia
+
+- intent: dindin_forest
+  examples: |
+    - give me the direction of dindin forest
+    - how can i find the way to dindin forest
+    - how can i reach to dindin forest
+    - location and direction of dindin forest
+    - please show me the way to dindin forest
+    - dindin forest
+    - visit dindin forest
+    - dindin forest oromia
+    - dindin 
+  
+- intent: chalanko_oromo_martyr_memorial_monument
+  examples: |
+    - give me the direction of chalanko oromo martyrs' memorial monument
+    - how can i find the way to chalanko oromo martyrs' memorial monument
+    - how can i reach to chalanko oromo martyrs' memorial monument
+    - location and direction of chalanko oromo martyrs' memorial monument
+    - please show me the way to chalanko oromo martyrs' memorial monument
+    - chalanko oromo martyrs' memorial monument
+    - visit chalanko oromo martyrs'
+    - visit chalanko oromo martyrs' memorial monument
+    - chalanko oromo martyrs' memorial monument oromia
+
+- intent: dire_dawa
+  examples: |
+    - give me the direction of dire dawa
+    - how can i find the way to dire dawa
+    - how can i reach to dire dawa
+    - location and direction of dire dawa
+    - please show me the way to dire dawa
+    - dire dawa
+    - visit dire dawa
+    - dire dawa oromia
+
+- intent: babile_elephant_sanctuary
+  examples: |
+    - give me the direction of babile elephant sanctuary
+    - how can i find the way to babile elephant sanctuary
+    - how can i reach to babile elephant sanctuary
+    - location and direction of babile elephant sanctuary
+    - please show me the way to babile elephant sanctuary
+    - babile elephant sanctuary
+    - visit babile elephant sanctuary
+    - babile elephant sanctuary oromia
+    - elephant sanctuary
+    - babile elephant
+    - babile elephant sanctuary oromia
+    - visit oromia babile elephant
+
+- intent: unique_rock_formation_babile
+  examples: |
+    - give me the direction of unique rock formation of babile
+    - how can i find the way to unique rock formation of babile
+    - how can i reach to unique rock formation of babile
+    - location and direction of unique rock formation of babile
+    - please show me the way to unique rock formation of babile
+    - unique rock formation of babile
+    - visit unique rock formation of babile
+    - visit unique rock formation
+    - unique rock formation
+
+- intent: mountain_kundudo
+  examples: |
+    - give me the direction of mountain kundudo
+    - how can i find the way to mountain kundudo
+    - how can i reach to mountain kundudo
+    - location and direction of mountain kundudo
+    - please show me the way to mountain kundudo
+    - mountain kundudo
+    - visit mountain kundudo
+    - visit oromia mountain kundudo
+    - visit kundudo
+
+- intent: dima_cave
+  examples: |
+    - give me the direction of dima cave
+    - how can i find the way to dima cave
+    - how can i reach to dima cave
+    - location and direction of dima cave
+    - please show me the way to dima cave
+    - dima cave
+    - visit dima cave
+    - dima cave oromia
+    - visit oromia dima cave
+
+- intent: oromo_cave
+  examples: |
+    - give me the direction of oromo cave
+    - how can i find the way to oromo cave
+    - how can i reach to oromo cave
+    - location and direction of oromo cave
+    - please show me the way to oromo cave
+    - oromo cave
+    - visit oromo cave
+    - visit oromia oromo cave
+
+- intent: historical_mosques
+  examples: |
+    - give me the direction of historical mosques
+    - how can i find the way to historical mosques
+    - how can i reach to historical mosques
+    - location and direction of historical mosques
+    - please show me the way to historical mosques
+    - historical mosques
+    - visit historical mosques
+    - historical mosques oromia
+
+#################################################################################################
+#                                                                                               #
+#                                                                                               #
+#                 Western Tourism Route                                                         #
+#                                                                                               #
+#                                                                                               #
+#################################################################################################
+
+- intent: western_tourist_route
+  examples: |
+    - give me the direction of western tourist route
+    - how can i find the way to western tourist route
+    - how can i reach to western tourist route
+    - location and direction of western tourist route
+    - please show me the way to western tourist route
+    - western tourist route
+    - visit western tourism route
+    - western route
+    - westerb tourism
+
+- intent: western_culture_life_style
+  examples: |
+    - give me the direction of western culture and life style
+    - how can i find the way to western culture and life style
+    - how can i reach to western culture and life style
+    - location and direction of western culture and life style
+    - please show me the way to western culture and life style
+    - western culture and life style
+    - visit western culture and life style
+    - western culture
+    - visit western culture
+
+- intent: oda_buluk_gada_site
+  examples: |
+    - give me the direction of oda buluk gada site
+    - how can i find the way to oda buluk gada site
+    - how can i reach to oda buluk gada site
+    - location and direction of oda buluk gada site
+    - please show me the way to oda buluk gada site
+    - oda buluk gada site
+    - visit oda buluk gada site
+    - oda buluk 
+    - gada site
+
+- intent: fincha_dam
+  examples: |
+    - give me the direction of fincha'a dam
+    - how can i find the way to fincha'a dam
+    - how can i reach to fincha'a dam
+    - location and direction of fincha'a dam
+    - please show me the way to fincha'a dam
+    - fincha'a dam
+    - finchaa dam
+    - fincha dam
+    - visit fincha dam
+    - fincha dam oromia
+
+- intent: bareda_angar_water_fall
+  examples: |
+    - give me the direction of bareda angar water fall
+    - how can i find the way to bareda angar water fall
+    - how can i reach to bareda angar water fall
+    - location and direction of bareda angar water fall
+    - please show me the way to bareda angar water fall
+    - bareda angar water fall
+    - bareda angar water fall
+    - bareda angar
+    - visit bareda angar water
+    - bareda angar water fall oromia
+
+- intent: dhati_walal_park
+  examples: |
+    - give me the direction of dhati walal park
+    - how can i find the way to dhati walal park
+    - how can i reach to dhati walal park
+    - location and direction of dhati walal park
+    - please show me the way to dhati walal park
+    - dhati walal park
+    - visit dhati walal park
+    - dhati walal park oromia
+
+- intent: keto_water_fall
+  examples: |
+    - give me the direction of keto water fall
+    - how can i find the way to keto water fall
+    - how can i reach to keto water fall
+    - location and direction of keto water fall
+    - please show me the way to keto water fall
+    - keto water fall
+    - visit keto water fall
+    - keto water fall oromia
+    - keto water
+
+- intent: walal_shabal
+  examples: |
+    - give me the direction of walal shabal conservation area and garajeda forest
+    - how can i find the way to walal shabal conservation area and garajeda forest
+    - how can i reach to walal shabal conservation area and garajeda forest
+    - location and direction of walal shabal conservation area and garajeda forest
+    - please show me the way to walal shabal conservation area and garajeda forest
+    - walal shabal conservation area and garajeda forest
+    - visit walal shabal
+    - visit garajeda forest
+    - arajeda forest
+    - walal shabal
+    
+- intent: goodbye 
+  examples: |
+    - see you
+    - good bye
+    - see later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+# - intent: wimage
+#   examples: |
+#      - i want to see [wimage](pictures)
+#      - can i see [pictures](pictures)
+#      - i find [pic](pictures)
+#      - can i get [image](pictures)
+#      - can i get [photo](pictures)
+
+# - intent: wenchi_in_detail
+#   examples: |
+#      - can i get [wenchi](wenchi_in_detail)
+#      - possible in detail [wancii](wenchi_in_detail)
+#      - detail [wonchi](wenchi_in_detail)
+
+# - intent: wvideo
+#   examples: | 
+#      - can i get [wvideo](video)
+#      - can i see [video](video)
+#      - is it possible to watch [video](video)
+#      - I want to watch in [video](video)
+#      - can i get in [video](video)
+
+- intent: bot_challenge 
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - who are you?
+    - ati eenyu?
+    - eenyu jedhu ?
+
+- intent: nlu_fallback
+  examples: |
+    - I'm not sure what you mean
+    - Can you repeat that?
+    - Sorry, I didn't understand
+    - I don't know what to say
+
+###########################################################################################
+
+# - intent: request_form
+#   examples: |
+#      - My name is [mesay](firstN)
+#      - you can call me [mes](firstN)
+#      - It's [John](firstN)
+#      - this side  [Gadisa](firstN)
+# - intent: request_form
+#   examples: |
+#       - [kebede](lastN)
+#       - my last name is  [sanait](lastN)
+#       - [Kura](lastN)  is last name
+#       - [gexi(lastN)] my last 
+# - intent: request_form
+#   examples: |
+#      - I want to fill the [feedback](feedback) form
+#      - fill the [comment](feedback )
+#      - how to fill the comment for [accept rating](feedback )
+#      - what is [procedure](feedback)
+
+# - intent: affirm
+#   examples: |
+#      - yes
+#      - of course
+#      - that sounds good
+#      - correct
+
+# - intent: deny
+#   examples: |
+#      - no
+#      - never
+#      - don't like that
+#      - not really
+
+
+
+# - intent: human_handoff
+#   examples: |
+#     - handoff
+#     - operator
+#     - I want a human
+#     - can I speak to an agent
+#     - real agent please
+#     - real human
+#     - chat with a live agent
+#     - give me a person please
+#     - i want to talk to a human
+#     - transfer to a human
+
